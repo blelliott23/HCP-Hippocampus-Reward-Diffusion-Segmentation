@@ -1,0 +1,11 @@
+# HCP-Hippocampus-Reward-Diffusion-Segmentation
+Segmentation of the hippocampus along the long-axis based on its structural connectivity to reward regions  
+
+The "HPC_Reward_Conn_Atlases_MNI" folder contains group-averaged atlases of the hippocampus based on its connectivity to the vmPFC, VTA, and Limbic (ventral) striatum, for each hemisphere. Two different segemntation methods were employed. Files ending in "_Seg" used a hard segmentation procedure where eahc voxel was assigned to the region that had the strongest conenctivity (most streamlines), precluding overlapping voxels within a subject. Files ending in "_50, _250, _500" used a within-subject threshold (50 streamlines, 250 streamlines, or 500 streamlines), with _50 being the most liberal and _500 being the most conservative.
+
+see [LinkToPreprint] for more information
+
+#Abstract
+
+The hippocampus and its afferent and efferent projections are involved in a variety of adaptive behavioral processes including memory, reward-learning, and decision making. Furthermore, deficits in the hippocampal system have been implicated in maladaptive behaviors associated with psychopathology, like schizophrenia and depression. Animal histology research has shown that brain regions involved in reward processing and motivation (i.e. vmPFC, NAc, VTA) are interconnected with the hippocampus, primarily the ventral (anterior) region. However, evidence of this structural connectivity in humans is lacking, precluding the ability to assay how structural connectivity with the hippocampus contributes to adaptive behavior. The present study used diffusion MRI and probabilistic tractography to quantify structural connectivity of the hippocampus with reward regions. Using a large sample of subjects (N=600) from the human connectome dMRI data release, we found that the dopaminergic midbrain (VTA) has stronger connectivity with the anterior versus posterior hippocampus, while the other regions had a more heterogeneous connectivity profile along the hippocampal long-axis. These efforts provide the foundation for generating a probabilistic atlas of the hippocampus organized around its structural connectivity with reward-related networks. Future analyses will investigate individual differences in the structural connectivity of these pathways and their relationship with psychosis symptomology.
+
